@@ -29,7 +29,7 @@ Matrix room: [#firefox-gnome-theme:matrix.org](https://matrix.to/#/#firefox-gnom
 
 ### Firefox versions support
 
-The `master` branch of this repo supports the current Firefox stable release `111`.
+The `master` branch of this repo supports the current Firefox stable release `113`.
 
 Theme versions complatible with older Firefox releases are preserved as git tags.
 
@@ -78,7 +78,7 @@ We also have the `beta` branch for fixes only aplicable to the current Firefox b
 	- `-t <theme_name>` *optional*
 		- Set the colors used in the theme.
 		- Default: Adwaita.
-		- Options: `adwaita`, `maia`, `yaru`.
+		- Options: `adwaita`, `maia`.
 
 ### One command curled script
 
@@ -151,8 +151,6 @@ You should already have this file installed if you followed one of the installat
 	This preference is required to recolor the icons, otherwise you will get black icons everywhere.
 
 > For other non essential preferences checkout `configuration/user.js`.
-
-Also though is not obligatory, some weird issues might happen if you don't use the Firefox's default/system theme because the theme is never tested against the Firefox's light or dark theme.
 
 ## Updating
 
@@ -234,7 +232,8 @@ We also have optional features to enable support for some Firefox extensions.
 
 	Enable the vertical tab trough the extension : [Tab Center Reborn](https://addons.mozilla.org/en-US/firefox/addon/tabcenter-reborn/).
 
-	> **Note:** You also need to copy the contents of the file `configuration/extensions/tab-center-reborn.css` into the settings page of Tabcenter-reborn..
+	> **Note:** You also need to copy the contents of the file `configuration/extensions/tab-center-reborn.css` into the settings page of Tabcenter-reborn..\
+	> **Note2:** You can also maintain the vertical tab always open with `gnomeTheme.extensions.tabCenterReborn.alwaysOpen`
 	
 ## Known bugs
 
